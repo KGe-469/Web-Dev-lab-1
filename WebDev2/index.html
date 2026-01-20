@@ -8,77 +8,72 @@
     <img html width="300" src="assets/Ramen Logo.jpg" alt="Logo of the ramen shop.">
 
 
-    <form>
+    <form method="post" action="https://formtester.goodbytes.be/post.php">
     <label for="fname">First name:</label><br>
-    <input type="text" id="fname" name="fname" value="John"><br>
+    <input type="text" id="fname" name="fname" value="John" required><br>
     <label for="lname">Last name:</label><br>
-    <input type="text" id="lname" name="lname" value="Doe"><br>
+    <input type="text" id="lname" name="lname" value="Doe" required><br>
     <label for="fname">Email:</label><br>
-    <input type="text" id="Email" name="fname" value="Someone@gmail.com"><br>
+    <input type="text" id="Email" name="Email" value="Someone@gmail.com"><br>
     <label for="lname">Phone Number:</label><br>
-    <input type="text" id="PhoneNumber" name="lname" value="613-111-1111"><br>
-    </form> 
+    <input type="text" id="PhoneNumber" name="PhoneNumber" value="613-111-1111"><br><br>
 
-    <form>
     <label for="Bowl_size">Enter the size of your bowl:</label><br>
-    <input type="radio" id="Large" name="bowl_size" value="Large">
+    <input type="radio" id="Large" name="bowl_size" value="Large" required>
     <label for="Large">Large</label><br>
-    <input type="radio" id="Medium" name="bowl_size" value="Medium">
+    <input type="radio" id="Medium" name="bowl_size" value="Medium" required>
     <label for="Medium">Medium</label><br>
-    <input type="radio" id="Small" name="bowl_size" value="Small">
-    <label for="Small">Small</label><br>
-    </form>
+    <input type="radio" id="Small" name="bowl_size" value="Small" required>
+    <label for="Small">Small</label><br><br>
 
-
-    <form>
     <label for="Broth Type">Enter your choice of broth:</label><br>
     <input type="radio" id="Chicken" name="Broth" value="Chicken">
     <label for="Chicken">Chicken</label><br>
     <input type="radio" id="Pork" name="Broth" value="Pork">
-    <label for="Pork">Pork</label><br>
-    </form>
-
-    <img html width="400" height="200" src="assets/Ramen image.jpg" alt="Image of a bowl full of ramen and vegitables.">
+    <label for="Pork">Pork</label><br><br>
 
 
-    <form>
+    <img html width="400" height="200" src="assets/Ramen image.jpg" alt="Image of a bowl full of ramen and vegitables."><br>
+
+
+
     <label for="Ingredients">Enter your choice of Vegitable: </label><br>
-    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-    <label for="vehicle1"> Scallions</label><br>
-    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-    <label for="vehicle2">  Bean sprouts</label><br>
-    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-    <label for="vehicle3">  Bamboo Shoots</label><br>
-    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-    <label for="vehicle1">  Corn</label><br>
-    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-    <label for="vehicle2">  Cabbage</label><br>
-    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-    <label for="vehicle3">  Mushrooms</label><br>
-    </form>
-
-    <form action="/action_page.php">
+    <input type="checkbox" id="Vegitables1" name="Scallions" value="True">
+    <label for="Vegitables1"> Scallions</label><br>
+    <input type="checkbox" id="Vegitables2" name="Bean Sprouts" value="True">
+    <label for="Vegitables2">  Bean sprouts</label><br>
+    <input type="checkbox" id="Vegitables3" name="Bamboo Shoots" value="True">
+    <label for="Vegitables3">  Bamboo Shoots</label><br>
+    <input type="checkbox" id="Vegitables4" name="Corn" value="True">
+    <label for="Vegitables4">  Corn</label><br>
+    <input type="checkbox" id="Vegitables5" name="Cabbage" value="True">
+    <label for="Vegitables5">  Cabbage</label><br>
+    <input type="checkbox" id="Vegitables6" name="Mushroom" value="True">
+    <label for="Vegitables6">  Mushrooms</label><br><br>
+ 
+   
     <label for="cars">Choose a Protine:</label>
-    <select id="cars" name="cars">
-    <option value="volvo">Pork Belly</option>
-    <option value="saab">Braised Pork</option>
-    <option value="fiat">Ground Pork</option>
-    <option value="audi">None</option>
+    <select id="cars" name="Protine">
+    <option value="Pork Belly">Pork Belly</option>
+    <option value="Braised Pork">Braised Pork</option>
+    <option value="Ground Pork">Ground Pork</option>
+    <option value="None">None</option>
     </select>
-    </form>
-
-    <form>
+    
+    
     <label for="Pickup/Delivery">Pickup or delivery:</label><br>
-    <input type="radio" id="Pickup" name="Pickup/Delivery" value="Pickup">
+    <input type="radio" id="Pickup" name="Pickup/Delivery" value="Pickup" required>
     <label for="Pickup">Pickup</label><br>
-    <input type="radio" id="Deliver" name="Pickup/Delivery" value="Deliver">
-    <label for="Deliver">Deliver</label><br>
-    </form>
+    <input type="radio" id="Deliver" name="Pickup/Delivery" value="Deliver" required>
+    <label for="Deliver">Deliver</label><br><br>
+   
 
-
-    <form>
     <label for="fname">Additional info (Allergies or food prefrences):</label><br>
-    <input type="text" id="fname" name="fname"><br>
+    <input type="text" id="fname" name="fname"><br><br>
+   
+
+
+    <input type="submit">
     </form>
 
 </body>
